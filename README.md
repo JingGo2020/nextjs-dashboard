@@ -6,3 +6,5 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 ## install plug
 npm i @vercel/postgres
+### 防止敲打键盘的时候请求后端服务器
+npm i use-debounce
