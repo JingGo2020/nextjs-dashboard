@@ -11,7 +11,7 @@ const FormSchema = z.object({
     amount: z.coerce.number(),
     status: z.enum(['pending', 'paid']),
     date: z.string(),
-})
+});
 
 const CreateInvoice = FormSchema.omit({ id: true, date: true });
 
